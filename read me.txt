@@ -1,0 +1,17 @@
+准备工作：
+1）准备换脸素材“1.jpg”
+2）准备视频“待处理视频.mp4”
+
+操作：
+1）分割视频：运行a_Video_resolution.m会在“my picture”中保存每一帧的图片
+2）处理每一帧的图片：
+	1、把“my picture”中的图片复制在“处理后的帧图”中，并注意有多少帧图片
+	2、打开b_fusionDemo20180430.m，并设置要处理的图片起始帧数，可在“处理后的帧图”中观察效果
+	3、会把未处理的图片显示出来，等待手动处理
+3）把处理后的图片转为视频：
+	1、打开c_Video_compositing.m，设置要处理的图片起始帧数，并运行即可
+
+
+
+参考资料：https://blog.csdn.net/zhang1308299607/article/details/80280559
+	https://www.bilibili.com/video/av22784456?from=search&seid=9909536321081757998
